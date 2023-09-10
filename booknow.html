@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK NOW</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="./manifest.json">
+<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <!--logo-->
+        <section id="logo">
+            <a  href="./home.html"><img src="./logo.png" alt="logo"   srcset=""></a>
+        </section>
+       
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li> <a href="./home.html">HOME</a></li>
+                <li> <a href="./hotels.html">HOTELS</a></li>
+                <li> <a href="./dining.html">DINING</a></li>
+                <li><a href="leisure.html">ADVENTURE</a></li>
+                <li> <a href="#">WEDDING & CONFERENCE</a>
+                    <ul class="dropdown">
+                        <li><a href="./wedding.html">WEDDING</a></li>
+                        <li><a href="./conference.html">CONFERENCE</a></li>
+                    </ul>
+                </li>
+                <li><a href="./accomadation.html">ACCOMMODATION</a></li>
+                <li><a href="./gallery.html">GALLERY</a></li>
+                <li><a href="./booknow.html"><button>BOOK NOW</button></a></li>
+                
+              
+            </ul>
+           
+        </nav>
+    </header>
+    <section id="backgroundimage">
+        <img src="./book now main image.jpg" alt="hotel image"  srcset="">
+    </section>
+   <!--form to book rooms-->
+   <section class="form">
+    <section class="book-room">
+        <h1>Book Your Stay</h1>
+        <form action="#" method="get">
+             <h2>Full Name</h2>
+            <input type="text" name="fullname" id="name" placeholder="Full Name" maxlength="30" required>
+
+            <h2>Select Room</h2>
+            <select name="room_type" required>
+                <option value="Select Room">Select room</option>
+                <option value="Luxury Room - Main Wing">Luxury Room - Main Wing</option>
+                <option value="Luxury Room - Spa Wing">Luxury Room - Spa Wing</option>
+                <option value="Themed Suites">Themed Suites</option>
+                <option value="Themed Suites with Plunge Pool">Themed Suites with Plunge Pool</option>
+            </select>
+
+            <h2 class="check-in">Check In</h2>
+            <input type="date" name="date" id="date" placeholder="Check In" required>
+            <h2 class="check-out">Check-Out</h2>
+            <input type="date" name="date" id="date" placeholder="Check out" required>
+
+            <h2>No .of . Adults</h2>
+            <select name="adult" id="adult" required>
+                <option value="adult">Adults</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+             <h2>No .of .Children</h2>
+            <select name="children" id="Children" required>
+                <option value="children">Children</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+             
+            <h2>Select Nationality</h2>
+            <select name="nationality" id="nationality" required>
+                <option value="nationality">Nationality</option>
+                <option value="resident">Resident</option>
+                <option value="non-Resident">Non-Resident</option>
+            </select>
+            <h2>Contact Number</h2>
+            <input type="text"name="numder" id="number" placeholder="Contact Number" required>
+
+            <h2>Email</h2>
+            <input type="email" name="email" id="email" placeholder="Email address" required>
+
+            <h2>Promo Code</h2>
+            <input type="text" name="promocode" id="promocode" placeholder="Promo Code" required>
+
+            <button type="submit">BOOK NOW</button>
+        </form>
+    </section>   
+</section>
+<!--form  for adventures-->
+<section class="form">
+    <section class="book-room">
+        <h1>Book Adventure</h1>
+        <form action="#" method="get">
+             <h2>Full Name</h2>
+            <input type="text" name="fullname" id="name" placeholder="Full Name" maxlength="30" required>
+
+            <h2>Select Room</h2>
+            <select name="adventure-type" required>
+                <option value="Select Adventure">Select Adventure</option>
+                <option value="Cinnamon Peeling Centres">Cinnamon Peeling Centres</option>
+                <option value="Deep Sea Fishing">Deep Sea Fishing</option>
+                <option value="Mahamodara River Safari">Mahamodara River Safari</option>
+                <option value="Whale and Dolphin Watching">Whale and Dolphin Watching</option>
+            </select>
+
+            <h2 class="date">Date</h2>
+            <input type="date" name="date" id="date" placeholder="Check In" required>
+
+            <h2>Time</h2>
+            <input type="time" name="time" id="time">
+           
+
+            <h2>No .of . Adults</h2>
+            <select name="adult" id="adult" required>
+                <option value="adult">Adults</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            
+
+             <h2>No .of .Children</h2>
+            <select name="children" id="Children" required>
+                <option value="children">Children</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <h2>Select Nationality</h2>
+            <select name="nationality" id="nationality" required>
+                <option value="nationality">Nationality</option>
+                <option value="resident">Resident</option>
+                <option value="non-Resident">Non-Resident</option>
+            </select>
+            <h2>Contact Number</h2>
+            <input type="text"name="numder" id="number" placeholder="Contact Number" required>
+
+            <h2>Email</h2>
+            <input type="email" name="email" id="email" placeholder="Email address" required>
+
+            <h2>Promo Code</h2>
+            <input type="text" name="promocode" id="promocode" placeholder="Promo Code" required> 
+            <button type="submit">BOOK ADVENTURE</button>
+        </form>
+    </section>
+    
+    
+</section>
+
+     
+
+    
+      <!--Link to go to top-->
+      <section class="top">
+        <a href="#logo"><button>GO TO TOP</button></a>
+     </section>
+    
+         <!--footer-->
+         <footer>
+            <ul class="footer-content">
+                <!--location information-->
+                <li>
+                    <h2>ADDRESS</h2>
+                    <p>JETWING LIGHTHOUSE,<br>
+                        433 A, DADELLA,<br>
+                        GALLE,<br>
+                        SRI LANKA</p>
+                    <a href="https://goo.gl/maps/7uwatk6pfpVovtMP7">SITE MAP</a>
+                </li>
+                <br>
+                 <!--contact information-->
+                <li>
+                    <h2>CONTACT DETAILS</h2>
+                    <p>
+                        TELEPHONE : +94 91 2223744 <br>
+                        RESERVATIONS : +94 114 709 400 <br>
+                        FAX : +94 11 2345729 <br>
+                        EMAIL : RESV.LIGHTHOUSE@JETWINGHOTELS.COM
+                    </p>
+                </li>
+                <br>
+                <!--opening hours-->
+                <li>
+                    <h2> OPERATING HOURS (RESERVATIONS)</h2>
+                    <p>
+                        MON - FRI - 9AM TO 6PM <br>
+                        SAT - 9AM TO 6PM <br>
+                        SUN - 9AM TO 2PM <br>
+                        PUBLIC HOLIDAYS - 9AM TO 6PM
+                    </p>      
+                </li>
+                
+            </ul>
+            <!--socialmedia pages-->
+            <section class="footer-details">
+                <section class="socials">
+                    <h2>FIND US ON:</h2>
+                    <a href="https://www.facebook.com/JetwingLighthouse/?ref=br_rs"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fjetwinghotels%2F"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/jetwing.lighthouse/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/jetwinghotels"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/jetwinghotels/"><i class="fa fa-linkedin"></i></a>
+                </section>
+            </section>
+            <section class="footer-bottom">
+                <p>All Right Reserved © Jetwing Hotels</p>
+            </section>
+    
+        </footer>
+   
+    
+    
+</body>
+</html>
