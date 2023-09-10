@@ -1,0 +1,2344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@300;800&family=Raleway:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+    
+    
+
+header{
+    background:white ;
+    width: 100%;
+    height: 82px;
+    
+    
+    border-bottom: 1px solid white;
+
+}
+header nav {
+    float: right;
+    font-family:'open sans',Arial, Helvetica, sans-serif;
+    display: block;
+  
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 60px;
+    
+}
+header nav ul{
+    float: right;
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    position: relative;
+
+
+}
+header nav ul li a{
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 8px;
+    border-bottom: 8px solid white;
+    font-weight: bold;
+    display: block; 
+    text-align: center;    
+}
+
+
+header nav ul li ul .dropdown li{
+    display: block;
+    width: 100%;
+    
+}
+header nav ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    display: none;
+    background: white;
+   
+}
+
+header nav a:hover{
+    background-color: rgb(245, 240, 240);
+    width: 100%;
+       
+}
+header nav ul li:hover ul.dropdown{
+    display: block;
+}
+header nav ul li a button{
+    height: 40px;
+    color: rgb(235, 235, 243);
+    background-color: rgb(17, 17, 65);
+    width: 120px;
+    
+    
+    
+}
+/* hotel logo*/
+#logo{
+    float: left;
+    display: block;
+}
+#logo img{
+    width: 280px;
+  
+}
+#backgroundimage img{
+    width: 100%;
+    background-size: cover;
+}
+/* go to top*/
+.top button{
+    height: 30px;
+    color: rgb(245, 243, 243);
+    background-color: rgb(35, 35, 75);
+    width: 120px;
+    margin:2% 0% 2% 5%;
+    padding: 0.5%;
+    border-radius: 5px;
+    
+
+}
+/* footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    padding:2%;
+    color:#fff;
+    background-color: #753a3a;
+    font-family:'montessarat',Arial, Helvetica, sans-serif ;
+    
+}
+.footer-details{
+    margin: 0 0rem 2rem 0;
+}
+footer ul{
+    list-style: none;
+    padding:0% 4% 0% 4%;
+    margin: 0% 2% 0% 2%;
+}
+footer li{
+    line-height: 2em;
+    padding-right: 45px;
+   
+    float: left;
+
+}
+footer a{
+    text-decoration: none;
+}
+.footer-content{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12px;
+
+}
+.footer-content h2{
+    font-size: 14px;
+}
+.footer-details h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+.footer-content a{
+    color: #fff;
+    border-bottom: 1px solid bisque;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.footer-bottom p{
+    text-align: center;
+    padding: 10px 0px 2px 500px;
+    
+}
+
+.socials a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    background:#724d4d;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+    
+}
+
+
+
+
+/*home page*/
+
+#lighthouselogo{
+    margin:2% 0% 2% 30%;
+    border-bottom: 1px solid white;
+    
+
+}
+.introduction{ 
+       
+    margin: 2% 0% 2% 6%;
+    overflow: auto;
+    border:1px solid white ; 
+    background: #f2f2f2;
+    margin: auto; 
+    max-width: 1200px;    
+}
+.introduction img{
+    width: 44rem;
+    height: 31.25rem;
+    float: right;
+    margin: 4% 2% 4% 0%; 
+
+}
+.introduction .about-hotel h1{
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: 99.5%; 
+    margin: 4% 0% 0% 5%;  
+}
+.introduction p {
+    float: left;
+    text-align: justify;
+    width: 21.875rem;   
+    margin: 2% 0% 0% 5%;
+    font-size: 14.5px;
+    line-height: 21px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;   
+}
+
+.location{
+    border-bottom: 1px solid white;  
+    font-display: auto;
+}
+.location h1{
+    float: left;
+    font-size: 50px;
+    margin: 5% 9% 0% 9%;
+    justify-content: right;
+    font-style: normal;
+    
+    
+}
+.location .about-location p{
+    float: right;
+    text-align: left;
+    width: 500px;
+    margin: 2% 7% 0% 0%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+}
+.location  img{
+    width: 750px;
+    float: left;
+    height: 70%;
+    margin-top: 2%;
+    display: flex;
+
+}
+#lighthouse-map iframe{
+    margin-left: 17%;
+    margin-top: 2%;
+    
+}
+.lighthousephotos{
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 2%;
+}
+.lighthousephotos img{
+    height: 300px;
+    width: 430px;
+
+    transition: 400ms;
+}
+.lighthousephotos img:hover{
+    transform: scale(0.85);
+}
+.hotel-amenities{
+    background:rgb(252, 251, 249) ;
+    margin: auto;
+    overflow: auto;
+    
+}
+.hotel-amenities h1{
+    font-size: 45px;
+    padding: 3% 0 0% 9%;
+    width: 100%;
+}
+.hotel-amenities p{
+    margin-top:2%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    padding: 0% 4% 0.5% 4%;
+    justify-content: center;
+
+}
+.amenities-inner{
+    max-width: 1500px;
+    margin: 0% 0% 2% 3%;
+    overflow: auto;
+}
+.amenities:hover {
+    transform: scale(0.9);
+  }
+.amenities-inner .amenities{
+    margin: 3%;
+    border: 4px solid rgb(83, 81, 81);
+    width: 345px;
+    float: left;
+    box-shadow: 0px 0px 7px 7px  rgb(83, 81, 81) ;
+    transition:  0.5s;
+}
+
+.amenities:hover {
+transform: scale(1.05);
+}
+    
+
+.amenities-inner .amenities img{
+    width:310px;
+    height: 250px;
+    margin: 4% 
+    
+}
+.description h1{
+    padding: 15px;
+    text-align: center;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+.description p{
+    padding: 16px;
+    text-align: center;
+}
+
+.description .icons-home img{
+    width:40px;
+    height:40px;
+    margin: 0% 10% 0% 45%;
+    
+    
+}
+.icon-names h1{
+    padding: 15px;
+    text-align:justify;
+    font-size: 80%;
+    font-weight: lighter;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+}
+.our-services{
+    border-bottom: 1px solid white;  
+    font-display: auto;
+    background: #f1f0f0;
+    margin: auto;
+    overflow: auto;
+}
+.our-services h1{
+    float: left;
+    font-size: 80px;
+    margin: 2% 9% 0% 7%;
+    justify-content: right;
+    font-style: normal;
+    width: 80%;
+}
+
+.our-services h2{
+    float: left;
+    margin: 0% 9% 0% 7%;
+    justify-content: right;
+    font-style: normal;
+    font-size: 25px;
+    border: 0px solid white;
+    width: 80%;
+}
+.our-services p{
+    margin:0% 0% 0% 10%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    padding: 0% 4% 0.5% 4%;
+    justify-content: center;
+}
+.our-services img{
+    width: 48%;
+    float: left;
+    height: 100%;
+    margin: 2% 0% 4% 2%;
+
+}
+.about-service ul{
+    margin: 5% 0% 0% 4%;
+}
+.about-service li{
+    float: right;
+    text-align: left;
+    width: 22%;
+    margin: 2% 2% 1% 0%;
+    font-size: 14px;
+    line-height: 5px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    
+}
+.why-choose-us{
+    background:rgb(252, 251, 249) ;
+    margin: auto;
+    overflow: auto;
+    border-bottom: 1px solid white;  
+    font-display: auto;
+}
+.why-choose-us h1{
+    float: left;
+    font-size: 45px;
+    margin: 2% 5% 2% 10%;
+    justify-content: right;
+    font-style: normal; 
+    padding: 0% 10% 0% 10%;
+    border-bottom: 1px solid white; 
+}
+
+.why-choose-us ol{
+    padding: 2% 0% 0% 30%;
+}
+.why-choose-us li{
+    float: right;
+    text-align: left;
+    width: 100%;
+    margin: 2% 2% 1% 0%;
+    font-size: 15px;
+    line-height: 1px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+
+}
+
+/*hotel page*/
+.hotel-head h1{
+    float: left;
+    font-size: 120px;
+    margin: 2% 15% 0% 15%;
+    justify-content: right;
+    font-style: normal;
+    color: #753a3a;
+
+
+}
+.hotel-head h2{
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: 99.5%; 
+    padding: 7% 10% 2% 4%; 
+    margin:0% 0% 0% 10%; 
+}
+.hotel-head p{
+    margin:0% 0% 0% 10%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    padding: 0% 4% 0.5% 4%;
+    justify-content: center;
+}
+
+.jetwing-hotels h1{
+    float: left;
+    font-size: 40px;
+    margin: 2% 10% 0% 40%;
+    justify-content: right;
+    font-style: normal;
+}
+.jetwing-hotels img{
+    width: 30%;
+    float: left;
+    height: 425px;
+    margin: 2% 0% 0% 2%;
+}
+.about-jetwing-hotels h1{
+    float: left;
+    text-align: left;
+    width: 30%;
+    margin: 3% 1% 0% 3%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+}
+.about-jetwing-hotels p{
+    float: left;
+    text-align: left;
+    width: 35%;
+    margin: 0.5% 1% 1% 3%;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+}
+.about-jetwing-hotels img{
+    width: 360px;
+    float: right;
+    height: 375px;
+    margin: 0% 0% 2% 2%;
+    padding-bottom: 4%;
+    
+
+}
+.jetwing-hotels{
+    background: #f2f2f2;
+    margin: auto;
+    overflow: auto;
+}
+#hotel-map iframe{
+    margin-left: 17%;
+    margin-top: 2%;    
+}
+.hotel-tables{
+    margin: 4% 0% 0% 2%;
+}
+.hotel-tables h1{
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    font-size: 28px;
+
+}
+.hotel-details{
+    border-collapse: collapse;
+    margin: 2%;
+    font-size: 0.9em;
+    width: 95%;
+    border-radius: 5px 5px 0 0;
+    font-family:'montessarat',Arial, Helvetica, sans-serif ;
+}
+.hotel-details thead tr{
+    background-color: rgb(73, 73, 119);
+    color: white;
+    text-align: left;
+    font-weight: bold;   
+}
+.hotel-details th, .hotel-details td{
+    padding: 1%;
+}
+.hotel-details tbody tr{
+    border-bottom: 1px solid rgb(241, 234, 234);
+}
+.hotel-details tfoot  td{
+    padding: 1%;
+    border-bottom: 1px solid rgb(241, 234, 234);
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 85%;
+}
+
+/*gallery page*/
+.gallery-introduction h1{
+    float: left;
+    font-size: 120px;
+    margin: 2% 9% 1% 25%;
+    justify-content: right;
+    font-style: normal;
+    color: #753a3a;
+}
+
+.gallery-images{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.gallery-images img{
+    height: 330px;
+    width: 330px;
+    cursor: pointer;
+    transition: 400ms;
+
+}
+.gallery-images img:hover{
+    transform: scale(1.1);
+}
+
+/*accommodation page*/
+.accommodation-introduction h1{
+    float: left;
+    font-size: 120px;
+    margin: 2% 9% 0% 10%;
+    justify-content: right;
+    font-style: normal;
+    color: #753a3a;
+
+}
+.accommodation-introduction h2{
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: 99.5%; 
+    padding: 9% 10% 2% 4%; 
+    margin:0% 0% 0% 10%; 
+
+}
+.accommodation-introduction p{
+    margin:0% 0% 0% 10%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    padding: 0% 4% 0.5% 4%;
+    justify-content: center;
+
+}
+
+.hotel-rooms{
+    max-width: 93rem;
+    margin: auto;
+    overflow: auto;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.hotel-rooms .rooms{
+    margin:0% 0% 0% 1%;
+    border: 1px solid white;
+    width: 40.5rem;
+    float: left;
+    position: relative;
+
+}
+.hotel-rooms .rooms img{
+    width:35rem;
+    height: 20rem;
+    margin: 0% 0% 0% 13%; 
+    background-size: cover; 
+    display: flex; 
+    padding-left: 12%;
+ 
+}
+
+.room-details h1{
+    position: absolute;
+    bottom:25% ; 
+    font-family:'montessarat',Arial, Helvetica, sans-serif ;
+    line-height: 20px;
+    font-size: 20px;
+    padding:2% 0% 2% 26%;
+    color: #f2f2f2;
+    border-bottom: 2px solid white;
+    font-weight: bolder;
+
+}
+.room-details p{
+    text-align: center;
+    font-family:'montessarat',Arial, Helvetica, sans-serif ;
+    float: left;
+    width: 74.7%;
+    margin: 0% 1% 4% 25%;
+    padding: 2% 0% 3% 3%;
+    font-size: 14px;
+    line-height: 27px;
+    opacity: 70%;
+    font-weight: bold;
+    background: rgb(236, 234, 234);
+
+}
+.room-details a button{
+    font-size: 0.7rem;
+    
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color:rgb(14,14,26) ;
+    color: rgb(234,234,234);
+    font-weight:700 ;
+    transition: 0.6s;
+    position: absolute;
+    
+    top: 65%;
+    right: 1.5%;
+
+}
+.room-details a button:active{
+    scale: 0.92;
+      
+}
+.room-details a button:hover{
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg,rgba(2,29,78,0.681)0%, rgba(31,215,232,0.873)60%);
+    color: rgb(4, 4,38);
+    
+}
+
+/*dining page*/
+.dining-introduction h1{
+    float: left;
+    font-size: 120px;
+    margin: 2% 9% 0% 18%;
+    justify-content: right;
+    font-style: normal;
+    color: #753a3a;
+}
+.dining-introduction h2{
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: 99.5%; 
+    padding: 15% 10% 2% 4%; 
+    margin:0% 0% 0% 10%; 
+}
+.dining-introduction p{
+    margin:0% 0% 0% 10%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    padding: 0% 4% 0.5% 4%;
+    justify-content: center;
+}
+.dining{
+    margin:1% 2% 2% 13%;
+    overflow: auto;
+    position: relative;
+}
+
+.dining img{
+    width: 650px;
+    float: left;
+    height: 28rem;
+    margin: 2% 0% 0% 2%;
+
+}
+.dining h1{
+    float: left;
+    font-size: 30px;
+    margin: 1% 36% 0% 5%;
+    justify-content: right;
+    font-style: normal;
+
+}
+
+ .dining .dining-details h1{
+    float: left;
+    text-align: left;
+    width: 30%;
+    margin: 2% 1% 0% 3%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+
+}
+.dining .dining-details p{
+    float: left;
+    text-align: left;
+    width: 35%;
+    margin: 1% 1% 1% 3%;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+}
+.dining .dining-details a {
+    font-size: 16px;
+    margin: 10% 0% 0% 30%;
+    padding:10% 4% 2% 4%; 
+    text-align: center;
+    height: 20px;
+    color: blue;
+    width: auto;
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+}
+.diningphotos{
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 3%;
+}
+.diningphotos img{
+    height: 250px;
+    width: 420px;
+    transition: 400ms;
+}
+.diningphotos img:hover{
+    transform: scale(0.85);
+}
+.events{
+    border-bottom: 1px solid white;  
+    font-display: auto;
+    margin: auto;
+    overflow: auto;
+    margin-top: 5%;
+}
+.events  h1{
+    float: left;
+    font-size: 40px;
+    margin: 0% 30% 0% 28%;
+    justify-content: right;
+    font-style: normal;   
+}
+.events h2{
+    padding-left: 33%;
+}
+.hotel-events{
+    max-width: 1500px;
+    margin: auto;
+    overflow: auto;
+
+}
+.hotel-events .event-type{
+    margin: 5px;
+    border: 1px solid white;
+    width: 650px;
+    float: left;
+    position: relative;
+
+}
+.hotel-events .event-type img{
+    width:600px;
+    height: 300px;
+    margin: 5%; 
+    background-size: cover; 
+    display: flex; 
+ 
+}
+.event-details h1{
+    text-align: center;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    top: 23%;
+    position: absolute;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding:2% 5% 0.5% 0%;
+    opacity: 80%;
+
+}
+.event-details p{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    font-family:'montessarat',Arial, Helvetica, sans-serif ;
+    line-height: 20px;
+    font-size: 13px;
+    padding:2% 25% 0.5% 10%;
+
+}
+.event-details a button{
+    height: 40px;
+    color: black;
+    background-color:white;
+    width: 120px;
+    position: absolute;
+    top: 65%;
+    margin-left: 40%;
+    border:2px solid #a19b9b; 
+    font-weight: bolder;  
+}
+.event-details a button:hover{
+    background-color:rgb(230, 227, 228);
+}
+
+
+
+
+
+
+
+/*leisure page*/
+.leisure-introduction h1{
+    float: left;
+    font-size: 120px;
+    margin: 2% 9% 0% 15%;
+    justify-content: right;
+    font-style: normal;
+    color: #753a3a;
+}
+.leisure-introduction h2{
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    font-weight: lighter;
+    font-size: 99.5%; 
+    padding: 15% 10% 2% 4%; 
+    margin:0% 0% 0% 10%; 
+}
+.leisure-introduction p{
+    margin:0% 0% 0% 10%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    padding: 0% 4% 0.5% 4%;
+    justify-content: center;
+}
+.leisure{
+    margin:2% 2% 2% 15%;
+    overflow: auto;
+    position: relative;
+}
+.leisure-details h1{
+    position: absolute;
+    bottom:25% ; 
+    font-family:'montessarat',Arial, Helvetica, sans-serif ;
+    line-height: 20px;
+    font-size: 22px;
+    padding:2% 0% 0.5% 2%;
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: bolder;
+}
+.leisure-details p{
+    float: left;
+    text-align: left;
+    width: 35%;
+    margin: 0.5% 1% 1% 3%;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+    opacity: 70%;
+}
+
+.leisure img{
+    width: 50%;
+    height: 20rem;
+}
+
+.leisure-details a button{
+
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color:rgb(14,14,26) ;
+    color: rgb(234,234,234);
+    font-weight:700 ;
+    transition: 0.6s;
+    position: absolute;
+    top: 65%;
+    right: 52%;
+}
+.leisure-details a button:active{
+    scale: 0.92;
+      
+}
+.leisure-details a button:hover{
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg,rgba(2,29,78,0.681)0%, rgba(31,215,232,0.873)60%);
+    color: rgb(4, 4,38);
+    
+   
+}
+/* MENU PAGE*/
+.menu img{
+    width: 650px;
+    float: left;
+    height: 45rem;
+    margin: 2% 0% 0% 15%;
+
+}
+.menu h1{
+    float: left;
+    font-size: 30px;
+    margin: 1% 36% 0% 5%;
+    justify-content: right;
+    font-style: normal;
+
+}
+.back button{
+    height: 30px;
+    color: rgb(245, 243, 243);
+    background-color: rgb(35, 35, 75);
+    width: 120px;
+    margin:60% 0% 2% 5%;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+/* BOOK NOW PAGE*/
+.form{
+    background: rgb(156, 203, 247);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 3% 20% 5% 20%;
+    padding: 1% 0.1%;
+    box-shadow: 4px 7px 14px 0px #00000042;
+
+}
+.book-room{
+    background: white;
+    margin: 6% 5% 6% 5%;
+    border-radius: 15px;
+}
+.book-room h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 5% 0% 2% 0%;
+
+
+}
+.book-room input{
+    font-size: 1rem;
+    padding: 0.5%;
+    width: 80%;
+    outline: none;
+    margin-left: 6%;
+}
+.book-room select{
+    font-size: 1rem;
+    padding: 0.5%;
+    width: 80%;
+    outline: none;
+    margin:0.8% 0% 0.8% 6%;
+    opacity: 70%;
+
+}
+.book-room #date{
+    opacity: 70%;
+    width: 40%;
+}
+.book-room h2{
+    font-size: 1.05rem;
+    margin:0.8% 0% 0.8% 6%;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 90%;
+    font-weight: bold;
+}
+.book-room button{
+    font-size: 1.05rem;
+    margin: 2% 1% 2% 9%;
+    padding: 0.5% 1% 0.5% 1%;
+    width: 50%;
+    background-color: rgb(40, 40, 100);
+    color: #f2f2f2;
+    font-family: 'montessarat',Arial, Helvetica, sans-serif;
+}
+.book-room button:hover{
+    background: #753a3a;
+}
+
+
+
+  
+@media screen and (max-width:450px) {
+    header nav ul{
+        float: left;
+    }
+    header nav ul li a{
+        padding: 5px 15px;
+        font-size: 15px;
+        display: block;
+    }
+    header nav ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        background: white;
+    }
+    
+    header nav ul li:hover ul.dropdown{
+        display: block;}
+
+    #logo img{
+        max-width: 150pt;
+        padding-left: 4%;
+        
+    }
+   
+    #backgroundimage img{
+       height: 150px;
+    }
+    #lighthouselogo{
+        margin: 0%;
+        padding: 0%;
+    }
+    #lighthouselogo img{
+        width: 50%;
+        padding-left: 0%;
+        margin-left: 15%;
+            
+    }
+    .introduction{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+   
+   
+    .introduction img{
+      width: 100%;
+      height: 250px;
+        
+    
+    }
+    .about-hotel h1{
+        padding-left: 0%;
+        margin-left: 0%;
+        width: 100%;
+       
+        
+    }
+    .introduction p{
+        max-width: 90%;
+        font-size: 12px;
+        padding-left: 0%;
+        margin-left: 1%;
+           
+    }
+    .location{
+        margin: 0%;
+        padding: 0%;
+    }
+    .location  img{
+        max-width: 100%;
+        max-height: 300px;
+        float: left;
+        
+    }
+   
+    .location h1{
+        font-size: 30px;
+        padding-left: 0%;
+        margin-left: 1%;
+        max-width: 100%;
+        
+    }
+    .location .about-location{
+        margin: 0%;
+        padding: 0%;
+        max-width: 300px;
+    }
+    .location .about-location p{
+        max-width: 88%;
+        font-size: 12px;
+       
+    }
+   
+    #lighthouse-map iframe{
+        width: 100%;
+        height: 150px;
+        padding-left: 0%;
+        margin-left: 2%;
+        
+    }
+  
+    .lighthousephotos img{
+        max-width:100%;
+    }
+    
+    .hotel-amenities h1{
+        max-width: 100%;
+        font-size: 30px;
+        padding-left: 0%;
+        margin-left: 2%;
+            
+    }
+    .hotel-amenities p{
+        padding-left: 0%;
+        margin-left: 2%;
+        font-size: 12px;
+        width: 100%;
+
+    }
+    .amenities-inner .amenities{
+        max-width: 80%;
+    }
+    .amenities-inner .amenities img{
+        max-width:90% ;
+        
+    }
+    .amenities p{
+        width: 95%;
+    }
+    .description h1{
+        font-size: 15px;
+    }
+    .our-services h1{
+        font-size: 33px;
+    }
+    .our-services h2{
+        font-size: 20px;
+    }
+    .our-services p{
+        font-size: 12px;
+        padding-left: 0%;
+        margin-left: 1%;
+    }
+    .our-services img{
+        width: 100%;
+    }
+    .about-service p{
+        max-height: 90%;
+    }
+    .about-service ul li{
+        width: 80%;
+        line-height: 18px;
+        margin-left: 0%;
+    }
+    
+    .why-choose-us h1{
+        font-size: 30px;
+        padding-left: 0%;
+        margin-left: 2%;
+    }
+    .why-choose-us p ol{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .why-choose-us ol li{
+        width: 100%;
+        line-height: 12px;
+        margin-left: 0%;
+        padding-left: 0%;
+       
+    }
+
+    /*hotel page*/
+    .hotel-head h1{
+        font-size: 35px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+    }
+    .hotel-head h2{
+        padding-left: 0%;
+        margin-left: 2%;
+
+    }
+    .hotel-head p{
+        font-size: 12px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 95%;
+    }
+    .jetwing-hotels h1{
+        padding-left: 0%;
+        margin-left: 2%;
+        font-size: 29px;
+    }
+    .jetwing-hotels img{
+        width: 100%;
+        height: 300px;
+        float: left;
+        
+    }
+    .about-jetwing-hotels h1{
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+        font-size: 16px;
+
+    }
+    .about-jetwing-hotels p{
+        width: 100%;
+    }
+    #hotel-map iframe{
+        width: 100%;
+        height: 150px;
+        padding-left: 0%;
+        margin-left: 2%;
+    }
+    .hotel-tables h1{
+        font-size: 20px;
+    }
+    .hotel-details{
+        width: 100%;
+    }
+    .hotel-details th,td{
+        font-size: 10px;
+    }
+    /*dining page*/
+    .dining-introduction h1{
+        font-size: 35px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+    }
+    .dining-introduction h2{
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+
+    }
+    .dining-introduction p{
+        font-size: 12px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 90%;
+    }
+    .dining{
+        margin: 0;
+        padding: 0;
+    }
+    .dining h1{
+        padding-left: 0%;
+        margin-left: 2%;
+        font-size: 23px;
+        width: 100%;
+
+    }
+    .dining img{
+        width: 100%;
+        height: 240px;
+        float: left;
+        padding-left: 0%;
+        margin-left: 0%;
+        
+        
+    }
+    .dining .dining-details h1{
+        font-size: 18px;
+        width: 95%;
+    }
+    .dining .dining-details p{
+        width: 90%;
+    }
+    .dining .dining-details p a{
+        width: 100%;
+        padding-left: 0%;
+        margin-left: 5%;
+        margin-top: 5%;
+        
+    }
+    .diningphotos img{
+        max-width:100%;
+        margin-top: 5%;
+    }
+    /*links to the event pages in dining*/
+    .events{
+        margin: 0;
+        padding: 0;
+        max-width: 300px;
+    }
+    .events  h1{
+        padding-left: 0%;
+        margin-left: 3%;
+        font-size: 27px;
+        width: 100%;
+    }
+    .events h2{
+        padding-left: 0%;
+        margin-left: 3%;
+        font-size: 18px;   
+    }
+    .event-type{
+        margin: 0%;
+        padding: 0%;
+    }
+    .event-type img{
+        max-width: 40%;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .event-details h1{
+        font-size: 18px;
+        max-width: 40%;
+    }
+    .event-details p{
+        width: 55%;
+        padding-left: 0%;
+        margin-left: 6%;
+    }
+    .event-details  a button{
+        left: 15%;
+        top: 75%;
+       
+        padding-left: 0%;
+        margin-left: 3%;
+    }
+    /*adventure page*/
+    .leisure-introduction h1{
+        font-size: 35px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+    }
+    .leisure-introduction h2{
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+
+    }
+    .leisure-introduction p{
+        font-size: 12px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 92%;
+    }
+    .leisure{
+        margin: 0%;
+        padding: 0%;
+    }
+    .leisure img{
+        width: 100%;
+    }
+    .leisure-details h1{
+        top: 40%;
+        font-size: 22px;
+
+    }
+    .leisure-details p{
+        width: 100%;
+    }
+    .leisure-details a button{
+        top:39%;
+        height: 40px;
+        width: 90px;
+        font-size: 12px;
+        padding:0% 5%;
+        left: 77%;
+       
+       
+        
+
+    }
+    .leisure iframe{
+        width: 95%;
+        height: 250px;
+        padding-left: 0%;
+        margin-left: 2%;
+    }
+    /*menu of the restaurants*/
+    .menu h1{
+        font-size: 20px;
+    }
+    .menu img{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        height: 400px;
+
+    }
+    /*accommodation page*/
+    .accommodation-introduction h1{
+        font-size: 28px;
+        padding-left: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .accommodation-introduction h2{
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 100%;
+
+
+    }
+    .accommodation-introduction p{
+        font-size: 12px;
+        padding-left: 0%;
+        margin-left: 2%;
+        width: 95%;
+    }
+    .hotel-rooms{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .hotel-rooms .rooms img{
+        margin-left: 0%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .room-details h1{
+        top: 62%;
+        padding-left: 0%;
+        margin: 0%;
+        
+    }
+    .room-details a button{
+        top: 77%;   
+    }
+    .room-details p{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        font-size:11px ;
+    }
+
+    /*gallery page*/
+    .gallery-introduction h1{
+        font-size: 35px;
+        padding-left: 0%;
+        margin-left: 20%;
+        width: 100%;
+    }
+    .gallery-images{
+        margin: 9%;
+    }
+
+    /*book now*/
+    .book-room h1{
+        font-size: 18px;
+    }
+
+}
+   
+
+@media screen and (min-width:450px)and (max-width:600px){
+    header nav ul{
+        float: left;
+    }
+    header nav ul li a{
+        padding: 5px 15px;
+        font-size: 15px;
+        display: block;
+    }
+    header nav ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        background: white;
+    }
+    
+    header nav ul li:hover ul.dropdown{
+        display: block;}
+
+    #backgroundimage img{
+        max-height: 150px;
+    }
+    #lighthouselogo{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    #lighthouselogo img{
+        max-width:60%;
+        margin-left:15% ;
+    }
+    .introduction{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .introduction img{
+        width: 100%;
+        height: 200px;
+    }
+    .about-hotel h1{
+        width: 100%;
+        
+    }
+    .about-hotel p{
+        width: 90%;
+    }
+    .location{
+        margin: 0%;
+        padding: 0%;
+    }
+    .location h1{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+        font-size: 40px;
+        max-width: 100%;
+    }
+    .location img{
+        margin-left: 0%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .about-location{
+        margin: 0%;
+        padding: 0%;
+    }
+    .about-location p{
+        
+        max-width: 90%;
+        
+    }
+    #lighthouse-map iframe{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        height: 250px;
+    }
+    .lighthousephotos img{
+        width: 100%;
+    }
+    .our-services img{
+        width: 100%;
+        height: 250px;
+    }
+    .about-service li{
+        line-height: 22px;
+        width: 45%;
+    }
+    .why-choose-us{
+        margin: 0%;
+        padding: 0%;   
+    }
+    .why-choose-us h1{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 4%;
+        font-size: 35px;
+    }
+    .why-choose-us li{
+        line-height: 22px;
+        margin: 0%;
+        padding: 0%;
+    }
+    /*hotel page*/
+    .hotel-head h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .hotel-head p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+        
+    }
+    .jetwing-hotels{
+        margin: 0%;
+        padding: 0%;
+    }
+    .jetwing-hotels h1{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 40px;
+        margin-left: 15%;
+    }
+    .jetwing-hotels img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .about-jetwing-hotels h1{
+        font-size: 20px;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .about-jetwing-hotels p{
+        width: 95%;
+    }
+    .about-jetwing-hotels img{
+        margin-left: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    #hotel-map iframe{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        margin-left: 0%;
+        height: 300px;
+    }
+    /*dining page*/
+
+    .dining-introduction h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .dining-introduction p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    .dining{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    .dining h1{
+        width: 100%;
+    }
+    .dining img{
+        width: 100%;
+        height: 300px;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .dining .dining-details{
+        width: 100%;
+    }
+
+    .dining .dining-details h1{
+        width: 100%;
+        
+    }
+    .dining .dining-details p{
+        width: 95%; 
+    }
+    .dining .dining-details p a{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .diningphotos{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    
+    .diningphotos img{
+        width: 100%;
+    }
+   
+    .events h1{
+        font-size: 30px;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .events h2{
+        font-size: 20px;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .event-type{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .event-type img{
+        max-width: 60%;
+    }
+    .event-details h1{
+        font-size: 20px;
+        margin: 0%;
+        padding: 0%;
+        width: 70%;
+        margin-right: 5%;
+        
+    }
+    .event-details p{
+        margin: 0%;
+        padding: 0%;
+        width: 55%;
+        margin-left: 5%;
+    }
+    .event-details a button{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 20%;
+       
+    }
+
+    /*adventure page*/
+    .leisure-introduction h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .leisure-introduction h2{
+        width: 90%;
+        
+        margin-left: 5%;
+
+    }
+    .leisure-introduction p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    .leisure{
+        margin: 0%;
+        padding: 0%;
+    }
+   
+    .leisure img{
+        width: 100%;
+    }
+    .leisure iframe{
+        width: 100%;
+        margin-left: 0%;
+        height: 250px;
+    }
+    .leisure-details h1{
+        top: 40%;
+    }
+    .leisure-details a button{
+        top: 42%;
+        height: 40px;
+        font-size: 12px;
+        margin: 0%;
+        padding: 2%; 
+        right: 19%;   
+    }
+    .leisure-details p{
+        width: 100%;
+    }
+
+    /*accommodation page*/
+    .accommodation-introduction h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .accommodation-introduction h2{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .accommodation-introduction p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    /*gallery page*/
+    .gallery-introduction h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .gallery-images{
+        margin-left: 15%;
+    }
+
+   
+    /*menu of the restaurants*/
+    .menu h1{
+        font-size: 35px;
+    }
+    .menu img{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        height: 600px;
+
+    }
+    
+}
+@media screen and (min-width:600px)and (max-width:800px){
+    heafer nav{
+        width: 600px;
+    }
+    header nav ul{
+        float: left;
+    }
+    header nav ul li a{
+        padding: 5px 15px;
+        font-size: 15px;
+        display: block;
+    }
+    header nav ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        background: white;
+    }
+    
+    #backgroundimage img{
+        max-height: 150px;
+    }
+    #lighthouselogo{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    #lighthouselogo img{
+        max-width:60%;
+        margin-left:10% ;
+    }
+    .introduction{
+        max-width: 100%;
+        margin: 0%;
+        margin-left: 0%;
+        
+        
+    }
+    .introduction img{
+        width: 100%;
+        height: 250px;
+        
+       
+    }
+    .about-hotel h1{
+        width: 90%;
+        padding-left: 2%;
+        
+    }
+    .about-hotel p{
+        width: 85%;
+        padding-left: 2%;
+    }
+    .location h1{
+        font-size: 35px;
+        width: 100%;
+        margin-left: 5%;
+    }
+    .location .about-location p{
+        margin: 0% ;
+        padding: 0%;
+        width: 90%;
+        margin-right: 5%;
+    }
+   
+    #lighthouse-map iframe{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        height: 250px;
+    }
+    .lighthousephotos{
+        margin: 0%;
+        padding: 0%;
+    }
+    .lighthousephotos img{
+        width:100%;
+       
+    }
+    .hotel-amenities h1{
+        margin: 0%;
+        padding: 0%;
+        font-size: 35px;
+        margin-left: 5%;
+        
+    }
+    .amenities{
+        width: 100%;
+    }
+    .description h1{
+        font-size: 18px;
+    }
+    .our-services img{
+        width: 100%;
+    }
+    .about-service li{
+        line-height: 18px;
+        
+    }
+    .why-choose-us li{
+        line-height: 18px;
+    }
+    /*hotels page*/
+    
+    .hotel-head h1{
+        width: 100%;
+        font-size: 55px;
+        margin-right: 40%;
+    }
+    .hotel-head p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    .jetwing-hotels h1{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 25%;
+    }
+    .jetwing-hotels img{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    #hotel-map iframe{
+        width: 100%;
+        margin: 0%;
+    }
+    .about-jetwing-hotels h1{
+        width: 100%;
+    }
+    .about-jetwing-hotels p{
+        width: 95%;
+    }
+    /*dining page*/
+    .dining-introduction h1{
+        width: 100%;
+        font-size: 55px;
+        margin-right: 30%;
+    }
+    .dining-introduction p{
+        width: 80%;
+    }
+    .dining img{
+        width: 80%;
+
+    }
+    .dining .dining-details h1{
+        width: 80%;
+    }
+    .dining .dining-details p{
+        width: 80%;
+    }
+    .diningphotos img{
+        width: 97%;
+        height: 200px;
+    }
+    /*adventure page*/
+    .leisure-introduction h1{
+        width: 100%;
+        font-size: 55px;
+        margin-right: 30%;
+    }
+    .leisure-introduction p{
+        width: 80%;
+    }
+    .leisure{
+        width: 100%;
+    }
+    .leisure img{
+        width: 80%;
+    }
+    .leisure iframe{
+        width: 80%;
+    }
+    .leisure-details h1{
+        top: 31%;
+    }
+    .leisure-details a button{
+        top: 31%;
+        height: 40px;
+        font-size: 12px;
+        margin: 0%;
+        right: 30%;
+        padding: 2%;    
+    }
+    .leisure-details p{
+        width: 75%;
+    }
+
+    /*accommodation page*/
+    .accommodation-introduction h1{
+        width: 100%;
+        font-size: 55px;
+        margin-right: 30%;
+    }
+    .accommodation-introduction p{
+        width: 80%;
+    }
+    /*gallery page*/
+    .gallery-introduction h1{
+        width: 100%;
+        font-size: 55px;
+        margin-right: 30%;
+    }
+    .gallery-images img{
+        width: 49%;
+    }
+   
+    /*menu of the restaurants*/
+    .menu h1{
+        font-size: 35px;
+    }
+    .menu img{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        height: 700px;
+
+    }
+}
+
+@media screen and (min-width:800px)and (max-width:1200px){
+    heafer nav{
+        width: 600px;
+    }
+    header nav ul{
+        float: left;
+    }
+    header nav ul li a{
+        padding: 5px 10px;
+        font-size: 15px;
+        display: block;
+    }
+    header nav ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        background: white;
+    }
+    
+    #backgroundimage img{
+        max-height: 250px;
+    }
+    #lighthouselogo{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    #lighthouselogo img{
+        max-width:60%;
+        margin-left:10% ;
+    }
+    .introduction img{
+        width: 100%;
+        height: 350px;
+        
+       
+    }
+    .about-hotel h1{
+        width: 90%;
+        padding-left: 2%;
+        
+    }
+    .about-hotel p{
+        width: 85%;
+        padding-left: 2%;
+    }
+    .location h1{
+        font-size: 35px;
+        width: 100%;
+        margin-left: 5%;
+    }
+    .location .about-location p{
+        margin: 0% ;
+        padding: 0%;
+        width: 90%;
+        margin-right: 5%;
+    }
+   
+    #lighthouse-map iframe{
+        width: 90%;
+        margin: 5%;
+        padding: 0%;
+        height: 250px;
+    }
+    .lighthousephotos{
+        margin: 0%;
+        padding: 0%;
+    }
+    .lighthousephotos img{
+        width:33%;
+       
+    }
+    .hotel-amenities h1{
+        margin: 0%;
+        padding: 0%;
+        font-size: 35px;
+        margin-left: 5%;
+        
+    }
+    .amenities-inner{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .amenities{
+        max-width:25%;
+    }
+    .amenities img{
+        max-width: 92%;
+    }
+    .description h1{
+        font-size: 12px;
+    }
+    .our-services img{
+        width: 95%;
+    }
+    .about-service li{
+        line-height: 18px;
+        width: 28%;
+        
+    }
+    .why-choose-us li{
+        line-height: 18px;
+    }
+     /*hotels page*/
+    
+     .hotel-head h1{
+        width: 100%;
+        font-size: 70px;
+        margin-right: 40%;
+    }
+    .hotel-head p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    .jetwing-hotels h1{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 25%;
+        width: 100%;
+    }
+    .jetwing-hotels img{
+        width: 45%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .about-jetwing-hotels h1{
+        width: 50%;
+        margin-left: 5%;
+    }
+    .about-jetwing-hotels a img{
+        width: 90%;
+        margin: 0% 5%;
+    }
+    #hotel-map iframe{
+        width: 95%;
+        margin: 3% 2%;
+    }
+    .about-jetwing-hotels p{
+        width: 50%;
+    }
+      /*dining page*/
+    .dining-introduction h1{
+        width: 100%;
+        font-size: 70px;
+        margin-right: 30%;
+    }
+    .dining-introduction p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    .dining{
+        margin: 2% 0%;
+        padding: 0%;
+    }
+    .dining h1{
+        width: 50%;
+    }
+    .dining img{
+        width: 47%;
+        height: 450px;
+        margin: 0%;
+        padding: 0%;
+
+    }
+    .dining .dining-details h1{
+        width: 32%;
+        margin: 3% 0% 0% 3%;
+        padding: 0%;
+    }
+    .dining .dining-details p{
+        width: 42%;
+    }
+    .diningphotos{
+        margin: 0% 2%;
+        padding: 0%;
+    }
+    .diningphotos img{
+        width: 33%;
+        
+    }
+    .events h1{
+        width: 100%;
+        margin: 0% 3%;
+        padding: 0%;
+    }
+    .events h2{
+        width: 100%;
+        margin: 0% 3%;
+        padding: 0%;
+    }
+     /*adventure page*/
+     .leisure-introduction h1{
+        width: 100%;
+        font-size: 70px;
+        margin-right: 30%;
+    }
+    .leisure-introduction p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    .leisure{
+        width: 100%;
+        margin: 0% 0% 0% 5%;
+        
+    }
+    .leisure img{
+        width: 46%;  
+    }
+    .leisure-details h1{
+       font-size: 20px;
+       margin: 0% 0% 0% 1%;
+       padding: 0%;
+       
+    }
+    .leisure iframe{
+        width: 45%;
+    }
+    .leisure-details a button{
+        height: 40px;
+        font-size: 12px;
+        margin: 1%;
+        padding: 1%; 
+        right: 53.5%;   
+    }
+     /*accommodation page*/
+     .accommodation-introduction h1{
+        width: 100%;
+        font-size: 70px;
+        margin-right: 30%;
+    }
+    .accommodation-introduction p{
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 5%;
+    }
+    /*gallery page*/
+    .gallery-introduction h1{
+        width: 100%;
+        font-size: 55px;
+        margin-right: 30%;
+    }
+    .gallery-images img{
+        width: 49%;
+    }
+    /*menu of the restaurants*/
+    .menu h1{
+        font-size: 35px;
+    }
+    .menu img{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        height: 1000px;
+
+    }
+   
+}
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
